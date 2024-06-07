@@ -3,18 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar Quiz</title>
+    <title>Cognitivo Comportamental</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Quiz sobre Psicologia Cognitivo-Comportamental</h1>
-    <button onclick="startQuiz()">Iniciar Quiz</button>
+    <div class="container">
+        <h1>Bora Estudar</h1>
+        <button onclick="window.location.href='quiz.html'">Iniciar</button>
+        <button id="theme-toggle">Tema Claro/Escuro</button>
+    </div>
     <footer>Desenvolvido por M.Souza</footer>
-
-    <script>
-        function startQuiz() {
-            window.location.href = 'quiz.html';
-        }
-    </script>
+    <script src="theme.js"></script>
 </body>
 </html>
